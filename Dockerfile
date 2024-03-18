@@ -1,4 +1,5 @@
-FROM node:10
+# using Node v10
+FROM node:21
 
 # Create app directory
 WORKDIR /usr/src/lafs
@@ -18,4 +19,4 @@ COPY . .
 # Expose port 3000 outside container
 EXPOSE 4200
 # Command used to start application 
-CMD [“node”, “server/server.js”]
+CMD npm run start

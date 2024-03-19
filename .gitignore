@@ -1,20 +1,51 @@
+# Ignore compiled output
+*.class
+*.o
+*.obj
+*.pyc
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore build artifacts
+build/
+dist/
+target/
+
+# Ignore dependencies
+node_modules/
+bower_components/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore package manager files
+npm-debug.log
+yarn-error.log
+
+# Ignore coverage reports
+coverage/
+
+# Ignore generated files
 *.csv
 *.dat
 *.iml
-*.log
 *.out
 *.pid
 *.seed
 *.sublime-*
-*.swo
-*.swp
 *.tgz
 *.xml
-.DS_Store
-.idea
-.project
-.strong-pm
-coverage
-node_modules
-npm-debug.log
-.env
